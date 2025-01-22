@@ -39,7 +39,7 @@ const resources = {
       scroll: "もっと知るためにスクロール！",
       jump: "セクションにジャンプする",
 
-      funFact: "面白ネタ",
+      funFact: "豆知識",
       funFactText: "中国人なのに、私の最悪の言語だ。",
 
       programming: "プログラミング",
