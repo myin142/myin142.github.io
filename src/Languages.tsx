@@ -7,7 +7,7 @@ export function Languages() {
   const { t: JP} = useTranslation(undefined, {lng: 'ja'});
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col items-center lg:items-start gap-4">
       <div className="flex gap-2 items-start">
         {LANGS.map((lang, i) => (
           <>
@@ -33,10 +33,10 @@ export function Languages() {
 
       {i18n.language == "zh" && (
         <>
-          <div className="text-sm text-gray-500">
+          <div className="text-xs text-gray-400">
             {EN("funFact")}: {EN("funFactText")}
           </div>
-          <div className="text-sm text-gray-500">
+          <div className="text-xs text-gray-400">
             {JP("funFact")}: {JP("funFactText")}
           </div>
         </>
